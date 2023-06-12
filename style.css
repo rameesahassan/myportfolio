@@ -1,0 +1,173 @@
+   
+    body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #6c757d;
+        text-align: left;
+        background-color: rgb(15, 15, 24);
+        background-image: url('img/background.png');
+        
+      }
+      
+
+/*===== HOME =====*/
+.typed-text-output {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  overflow: hidden; /* Ensure the text is not visible initially */
+  border-right: 0.15em solid white; /* Add a blinking cursor effect */
+  white-space: nowrap; /* Prevent line breaks */
+  margin: 0; /* Remove any default margin */
+  letter-spacing: 0.15em; /* Add spacing between letters */
+}
+
+
+@keyframes typing {
+  from {
+    width: 0; /* Start with zero width */
+  }
+  to {
+    width: 100%; /* Gradually increase the width to reveal the entire text */
+  }
+}
+
+/*======About====*/
+.about_details{
+  
+  align-items: center;
+}
+.image{
+  border-radius: 100%;
+  width: 450px; /* Set the desired width */
+  height: 450px; /* Set the desired height */
+
+  
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.section {
+  animation: fadeIn 1s ease-in-out;
+ 
+}
+@keyframes slide-in {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+.homepage-section,
+.about-section,
+.education-section,
+.skill-section,
+.project-section,
+.contact-section {
+  opacity: 1;
+}
+
+.slide-in {
+  animation: slide-in 1s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.textname {
+  animation: fade-in 1s ease-in-out;
+}
+.about_details p{
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+}
+.about_details h2{
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.personal_details{
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.education_details{
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.skill{
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+
+}
+#navbarTogglerDemo01{
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.form-row input{
+  background-image: url('img/background.png');
+  border-color: rgb(12, 226, 234);
+        
+}
+.control-group input{
+  background-image: url('img/background.png');
+  border-color: rgb(12, 230, 238);
+        
+}
+.control-group textarea{
+  background-image: url('img/background.png');
+  border-color: rgb(12, 214, 221);
+}
+.work__img {
+  position:relative;
+  overflow: hidden;
+ 
+}
+
+.txt_layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.work__img:hover .txt_layer {
+  opacity: 1;
+}
+.about-section{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.education-section{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.project-section{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.skill-section{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.contact-section{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.homepage-section{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+  
+
+
+
